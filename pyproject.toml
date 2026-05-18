@@ -1,24 +1,20 @@
-[project]
+[tool.poetry]
 name = "aerial-spray-atomization-models"
 version = "0.1.0"
 description = "Aerial Spray Atomization Models (USDA-ARS-AATRU)"
 authors = [
-    {name = "Matt Gill",email = "mgill@agaviation.org"}
+    {name = "Matt Gill", email = "mgill@agaviation.org"}
 ]
-requires-python = ">=3.12"
-dependencies = [
-    "numpy (>=2.4.5,<3.0.0)"
-]
-
-[project.optional-dependencies]
-gui = [
-    "PyQt6>=6.0",
-]
-
-[tool.poetry]
 packages = [
     { include = "aerial_spray_atomization_models" }
 ]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+numpy = ">=2.4.5,<3.0.0"
+
+[tool.poetry.group.gui.dependencies]
+PyQt6 = ">=6.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
