@@ -3,7 +3,7 @@ name = "aerial-spray-atomization-models"
 version = "0.1.0"
 description = "Aerial Spray Atomization Models (USDA-ARS-AATRU)"
 authors = [
-    {name = "Matt Gill", email = "mgill@agaviation.org"}
+    "Matt Gill <mgill@agaviation.org>"
 ]
 packages = [
     { include = "aerial_spray_atomization_models" }
