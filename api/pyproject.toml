@@ -1,0 +1,16 @@
+[project]
+name = "asam-api"
+version = "0.1.0"
+description = "Aerial Spray Atomization Model API (USDA-ARS-AATRU)"
+authors = [
+    {name = "Matt Gill",email = "mgill@agaviation.org"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy (>=2.4.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
