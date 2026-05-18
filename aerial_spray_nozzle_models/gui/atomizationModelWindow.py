@@ -23,9 +23,9 @@ from PyQt6.QtWidgets import (
     QWidget,
 )
 
-from aerial_spray_atomization_models import AtomizationModel, AtomizationModelMulti
-from aerial_spray_atomization_models.nozzles import NOZZLES
-from aerial_spray_atomization_models.reference import DSC_REFERENCE
+from aerial_spray_nozzle_models import AtomizationModel, AtomizationModelMulti
+from aerial_spray_nozzle_models.nozzles import NOZZLES
+from aerial_spray_nozzle_models.reference import DSC_REFERENCE
 
 
 _PARSED_NAMES: dict[str, tuple[str, ...]] = {

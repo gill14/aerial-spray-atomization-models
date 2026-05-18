@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "aerial-spray-atomization-models"
+name = "aerial-spray-nozzle-models"
 version = "0.1.0"
-description = "Aerial Spray Atomization Models (USDA-ARS-AATRU)"
+description = "Aerial Spray Nozzle Models (USDA-ARS-AATRU)"
 authors = [
     "Matt Gill <mgill@agaviation.org>"
 ]
 packages = [
-    { include = "aerial_spray_atomization_models" }
+    { include = "aerial_spray_nozzle_models" }
 ]
 
 [tool.poetry.dependencies]
