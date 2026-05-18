@@ -15,6 +15,11 @@ gui = [
     "PyQt6>=6.0",
 ]
 
+[tool.poetry]
+packages = [
+    { include = "aerial_spray_atomization_models" }
+]
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
